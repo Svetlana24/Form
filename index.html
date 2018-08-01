@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+	<nav>
+		<div class="icons">
+			<ul>
+				<li><img src="img/arrows.png" alt="" class="arrows"></li>
+				<li>
+					<img src="img/speech.png" alt="" class="speech">
+					<div class="counter counter_speech"><p>7</p></div>
+				</li>
+				<li>
+					<img src="img/bell.png" alt="" class="bell">
+					<div class="counter counter_bell"><p>12</p></div>
+				</li>
+				<li><img src="img/menu.png" alt="" class="menu"></li>
+			</ul>
+			
+		</div>
+	</nav>
+	<section>
+		<div class="main_box">
+			<div class="site_bar"></div>
+			<div class="form">
+				<h2>Создание квартиры</h2>
+				<div class="btn">
+					<button class="prev">Назад</button>
+					<button class="create">Создать</button>
+				</div>
+				
+				<div class="top_box">
+					<div class="left">
+						<div class="number"><p>1</p></div>
+						<h3>Добавьте данные по квартире.</h3><br>
+						<form>
+							<input type="text" placeholder="Номер квартиры*" class="number_flat">
+							<p class="info_text"><span>*</span>Обязательно</p>
+						
+							<input type="text" placeholder="Индекс квартиры" class="data">
+							<input type="text" placeholder="Общая площадь*" class="data data_right">
+							<input type="text" placeholder="Жилая площадь*" class="data">
+							<input type="text" placeholder="Отапливаемая площадь*" class="data data_right">
+							<select>
+								<option disabled selected="selected">Выберите дом*</option>
+							</select>
+						</form>
+						
+					</div>
+					<div class="right">
+						<div class="box">
+							<div class="number"><p>2</p></div>
+							<h3>Подключите активные приборы учета.</h3><br>
+							<p class="info"><span>* </span>В вашем доме уже есть установленные приборы учета. Вы можете подключить их. </p>
+							<div class="active">
+								<p>Подключить активные приборы учета</p>
+								<label class="switch">
+  								<input type="checkbox" checked>
+  								<span class="slider"></span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom_box">
+					<div class="number"><p>3</p></div>
+						<h3>Активные приборы учета в вашем доме.</h3><br>
+					<div class="block_flex">
+					<div class="left">
+						<div class="active">
+							<div class="label">Электроэнергия</div>
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider"></span>
+							</label>
+						</div>
+						<div class="active">
+							<div class="label">Теплоэнергия</div>
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider"></span>
+							</label>
+						</div>
+						<div class="active">
+							<div class="label">Водосчетчик (горячая вода)</div>
+							<label class="switch">
+  							<input type="checkbox" checked>
+  							<span class="slider"></span>
+							</label>
+						</div>
+						<div class="active">
+							<div class="label">Газ</div>
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider"></span>
+							</label>
+						</div>
+					</div>
+					<div class="right">
+						<div class="active">
+							<div class="label">Электроэнергия (двухзонный)</div>
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider"></span>
+							</label>
+						</div>
+						<div class="active">
+							<div class="label">Водосчетчик</div>
+							<label class="switch">
+  							<input type="checkbox" checked>
+  							<span class="slider"></span>
+							</label>
+						</div>
+						<div class="active">
+							<div class="label">Водоотведение</div>
+							<label class="switch">
+  							<input type="checkbox">
+  							<span class="slider"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	
+</body>
+</html>
